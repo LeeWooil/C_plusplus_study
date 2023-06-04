@@ -127,10 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Project2-1_main.cpp" />
+    <ClCompile Include="course.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="registrar.cpp" />
+    <ClCompile Include="roster.cpp" />
+    <ClCompile Include="schedule.cpp" />
+    <ClCompile Include="student.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="registrar.h" />
+    <ClInclude Include="course.h" />
+    <ClInclude Include="registrar.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="roster.h" />
+    <ClInclude Include="schedule.h" />
+    <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
