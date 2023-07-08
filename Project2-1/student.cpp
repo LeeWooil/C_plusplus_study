@@ -7,9 +7,7 @@ Student::~Student(){}
 Schedule* Student::getSchedule() {
 	return schedule;
 }
-string Student::getName() {
-	return student_name;
-}
+
 void Student::print() {
 	cout << "Student name: " << student_name << endl;
 	cout << "List of Courses" << endl;

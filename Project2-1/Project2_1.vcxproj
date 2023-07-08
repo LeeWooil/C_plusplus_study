@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="course.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="project2_q01.cpp" />
     <ClCompile Include="registrar.cpp" />
     <ClCompile Include="roster.cpp" />
     <ClCompile Include="schedule.cpp" />

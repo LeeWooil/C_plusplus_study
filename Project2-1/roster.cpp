@@ -1,7 +1,7 @@
 #include "roster.h"
 
 Roster::Roster(int _size) : size(0) {
-	name_roster = new string[10];
+	name_roster = new string[300];
 }
 Roster::~Roster() {
 	delete[] name_roster;

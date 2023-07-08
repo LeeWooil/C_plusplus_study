@@ -7,14 +7,13 @@
 using namespace std;
 
 class Course {
-	string course_name;
 	int unit;
 	Roster* roster;
 public:
+	string course_name;
 	Course(string _name, int _size);
 	~Course();
 	Roster* getRoster();
-	string getName();
 	void print();
 };
 
