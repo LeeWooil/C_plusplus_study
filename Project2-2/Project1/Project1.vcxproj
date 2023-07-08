@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="builder.cpp" />
     <ClCompile Include="director.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="project2_q02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="builder.h" />

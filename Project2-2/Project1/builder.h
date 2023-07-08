@@ -12,9 +12,9 @@ class Vacation {
 public:
 	Vacation();
 	~Vacation();
-	virtual void bookHotels();
-	virtual void bookFlights();
-	virtual void bookTours();
+	virtual void bookHotels() = 0;
+	virtual void bookFlights() = 0;
+	virtual void bookTours() = 0;
 
 };
 

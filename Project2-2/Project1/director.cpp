@@ -17,7 +17,7 @@ void Director::book(int packageType)
     {
         vacation = new Package3();
     }
-    cout << "여행 계획에 대한 정보: " << endl;
+    cout << "This is information about your vacation:" << endl;
     vacation->bookHotels();
     vacation->bookFlights();
     vacation->bookTours();
